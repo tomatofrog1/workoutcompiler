@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Chivo";
+    src: url(./font/Chivo-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: "Chivo";
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header .header_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15rem;
+}
+
+.header_wrapper .controls{
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+}
+
+.controls a{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.controls a:hover{
+    transition: 0.5s ease;
+    background-color: rgb(242, 245, 247);
+    scale: 1.05;
+}
+
+
+
+.main {
+    width: 100%;
+    background-color: rgb(242, 245, 247);
+    margin: 0;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.workout_infos h2{
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+.stats {
+    margin: 0.5rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.per{
+    margin-bottom: 0.5rem;
+}
+
+.perSesh{
+    display: flex;
+    justify-content: space-between;
+}
+
+.workout_infos .stats .labels .perSesh .perSeshLabel{
+    margin-left: 1rem;
+}
+
+.workout_infos .stats .labels .perSesh .perSeshLabel h5, .perSeshCount h5{
+    margin: 0.5rem 0;
+}
+
+.workout_display{
+    margin: 0 3rem 0 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.workout_display .workout{
+    background-color: rgb(209, 214, 218);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.workout_display .workout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exercise{
+    display: flex;
+}
+
+.workout h5{
+    margin: 0.3rem 0;
+}
+
+.workout span{
+    width: 1rem;
+}
+
+.workout a{
+    
+    text-align: center;
+    padding: 0.2rem 4rem;
+    border-radius: 0.7rem;
+    margin: 0.5rem;
+}
+
+.workout a:hover{
+    background-color: rgb(151, 151, 151);
+    transition: 0.3s ease;
+    scale: 1.03;
+}
+
+.workout_display .addWorkoutBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(209, 214, 218);
+    margin: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+.addWorkoutBtn:hover{
+    background-color: rgb(151, 151, 151);
+    transition: 0.3s ease;
+    scale: 1.03;
+    
+}
+
+.addWorkoutBtn:hover a{
+    transition: 0.3s ease;
+    transform: rotate(90deg);
+}
+
+
+.addbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
